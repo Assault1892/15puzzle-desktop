@@ -13,20 +13,19 @@
 - ``Node.js v14.8.0``<br>
   恐らく、これだけで大丈夫...だと思います。
 
-## Usage
-- 後述するモジュールのインストール手順が終わったら、 main.js が存在するディレクトリで cmd や ターミナル を起動
-- ``node_modules\.bin\electron .`` で Electron を起動
-- 後はちょっと待てば 15 Puzzle が起動します。
-
-## How-to-Install
-- このリポジトリの上の方にある Code と書いてある所をクリックし Download ZIP をクリック。
-- ダウンロードされた ZIPファイル を展開 (または解凍) し、中のフォルダを適当な所に置く。<br>
-  この際、 ``main.js`` と ``package-lock.json`` を必ず同じディレクトリに配置する事。デスクトップにそのまま置く、などは止めましょう。
-- ``package-lock.json`` が存在するディレクトリで cmd や ターミナル を起動。
-- ``npm i``と打ってかっこよくEnterを押そう。もしここでエラーが出たなら Node.js か npm をインストールしよう。
-- Electron のダウンロードに時間がかかるので、スマホゲーでもして待ちましょう。回線・PCスペックにも左右されますが、おおよそ3分ぐらいはかかります。
-- ``npm i`` が終わったら、 ``node_modules\.bin\electron .`` で 15 Puzzle が起動します。**Enjoy!**
+## How to Play
+- Releases から最新の Windows 向けビルドのzipをダウンロード、展開し中にある ``15puzzle-desktop.exe`` を起動するだけです。お手軽！<br>
+  一応、ソースコード自体は上の Code をクリックし、 Download ZIP でダウンロードできます。<br>
+  「自分で改造したい！」って人はご自由にどうぞ。
 
 # その他
 
 - 元の 15 Puzzle の GitHub リポジトリは [こちら](https://github.com/HiraginoYuki/fifteen-puzzle) 。
+
+## Todo
+
+- [x] Windows に対応。
+- [ ] Mac OS X に対応させる。
+- [ ] Linux OS に対応させる。
+- [ ] ステータスバーみたいな奴の完全削除。
+- [ ] loadURL関数に頼らないようにする。
