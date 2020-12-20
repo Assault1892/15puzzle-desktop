@@ -1,7 +1,7 @@
 # 15パズル - デスクトップ
 
 ## Overview
-- [hiragino_yuki](https://twitter.com/hiraginoyuki "Twitter") 氏 制作の 15 Puzzle を Electron 上で実行、ブラウザを開かなくても遊べるようにしました。
+- [hiragino_yuki](https://twitter.com/hiraginoyuki "Twitter") 氏 制作の [15 Puzzle](https://15-puzzle.app) を Electron 上で実行、ブラウザを開かなくても遊べるようにしました。
 
 ## Description
 - Node.js と Electron を使用し、 15 Puzzle を loadURL関数 を用いて Electron ウィンドウ内で表示。<br>
