@@ -1,13 +1,15 @@
 {
   "name": "15puzzle-desktop",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "desktop ported hiraginoyuki's 15puzzle.",
   "main": "main.js",
   "dependencies": {
-    "asar": "^3.0.3",
-    "electron": "^11.1.0"
+    "asar": "^3.0.3"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "electron": "^11.1.0",
+    "electron-builder": "^22.9.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
