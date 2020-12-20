@@ -6,10 +6,7 @@ builder.build({
         'win':{
             'target': {
                 'target': 'zip',
-                'arch': [
-                    'x64',
-                    'ia32',
-                ]
+                'arch': 'x64'
             }
         }
     }
