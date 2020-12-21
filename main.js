@@ -2,7 +2,7 @@ const { app, BrowserWindow } = require('electron');
 
 function createWindow () {
 	let win = new BrowserWindow({
-		width: 525,
+		width: 600,
 		height: 600,
 		resizable: false,
 		maximizable: false,
@@ -11,6 +11,7 @@ function createWindow () {
 		hasShadow: false,
 		icon: (__dirname + '/icon.png'),
 		backgroundColor: "#222",
+		frame: false,
 		title: "15 Puzzle"
 	});
 	
