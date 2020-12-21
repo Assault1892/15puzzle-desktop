@@ -1,5 +1,7 @@
 # 15パズル - デスクトップ
 
+- **元の 15 Puzzle が PWA 対応したため、当プロジェクトの開発を停止します。**
+
 ## Overview
 - [hiragino_yuki](https://twitter.com/hiraginoyuki "Twitter") 氏 制作の [15 Puzzle](https://15-puzzle.app) を Electron 上で実行、ブラウザを開かなくても遊べるようにしました。
 
@@ -24,8 +26,4 @@
 
 ## Todo
 
-- [x] Windows に対応。
-- [ ] Mac OS X に対応させる。
-- [ ] Linux OS に対応させる。
-- [ ] ステータスバーみたいな奴の完全削除。
-- [ ] loadURL関数に頼らないようにする。
+- [x] 元の 15 Puzzle が PWA 対応したため開発停止。
